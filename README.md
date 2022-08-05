@@ -64,16 +64,16 @@ To deploy this project run
 ```
 
 ## TODO
- - [] Integrate Jest.
- - [] Integrate Google Analytics.
- - [] Integrate pre-commit hook.
- - [] Protect master branch.
- - [] Integrate nginx server inside docker, static should be built and pushed inside docker.
- - [] Seperate ENV variables for integration and production.
- - [] Automatic push on integration netlify dns, manual push on production.
- - [] Two reviewers, Me and Belel are required to push branch on master. Automatic branch deployment, manual deployment on master.
- - [] Code coverage report in pre-commit check and CI before merging into master branch. CI should break if coverage is less then 98%.
- - [] More points later.
+ - [ ] Integrate Jest.
+ - [ ] Integrate Google Analytics.
+ - [ ] Integrate pre-commit hook.
+ - [ ] Protect main branch.
+ - [ ] Integrate nginx server inside docker, static should be built and pushed inside docker.
+ - [ ] Seperate ENV variables for integration and production.
+ - [ ] Automatic push on integration netlify dns, manual push on production.
+ - [ ] Two reviewers, Me and Belel are required to push branch on master. Automatic branch deployment, manual deployment on main.
+ - [ ] Code coverage report in pre-commit check and CI before merging into main branch. CI should break if coverage is less then 98%.
+ - [ ] More points later.
 
 
 ## Demo
