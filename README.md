@@ -71,10 +71,11 @@ To deploy this project run
  - [ ] Integrate nginx server inside docker, static should be built and pushed inside docker.
  - [ ] Seperate ENV variables for integration and production.
  - [ ] Automatic push on integration netlify dns, manual push on production.
- - [ ] Two reviewers, Me and Belel are required to push branch on master. Automatic branch deployment, manual deployment on main.
+ - [ ] Two reviewers, Me and Belel are required to review the code and approve it. Automatic branch deployment, manual deployment on main.
  - [ ] Code coverage report in pre-commit check and CI before merging into main branch. CI should break if coverage is less then 98%.
- - [ ] Test Netlify deploy previews
- - [ ] For more finegrained controls and running tests, use this [GitHub Action](https://github.com/marketplace/actions/netlify-deploy)
+ - [x] Test Netlify deploy previews
+ - [x] For more finegrained controls and running tests, use this [GitHub Action](https://github.com/marketplace/actions/netlify-deploy)
+ - [ ] Add PWA.
  - [ ] More points later.
 
 
