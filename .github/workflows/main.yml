@@ -7,5 +7,13 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install modules
       run: yarn
-    - name: Cypress.io
+    - name: run code
+      run: yarn start&
+    - name: Sleep for 50 seconds
+      run: sleep 30s
+      shell: bash
+    - name: Integration tests
       uses: cypress-io/github-action@v4.2.0
+      with:
+          browser: chrome
+          headed: true
