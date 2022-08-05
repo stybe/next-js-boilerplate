@@ -1,27 +1,116 @@
-# Next.js + Cypress
 
-This example shows how to configure Cypress to work with Next.js.
+# Project Title
 
-## Deploy your own
+A brief description of what this project does and who it's for
+For this project context, it's a boilerplate code for next-js applications. As of now it contains cypress to work with next-js.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-cypress)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cypress&project-name=with-cypress&repository-name=with-cypress)
+## Installation
 
-## How to use
+Run the following commands to install dependencies.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
+For npm:
 ```bash
-npx create-next-app --example with-cypress with-cypress-app
+npm i
 ```
 
+For Yarn:
 ```bash
-yarn create next-app --example with-cypress with-cypress-app
+yarn i
 ```
+    
+## Run Locally
+
+Clone the project
 
 ```bash
-pnpm create next-app --example with-cypress with-cypress-app
+  https://github.com/stybe/next-js-boilerplate
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Go to the project directory
+
+```bash
+  cd next-js-boilerplate
+```
+
+Install dependencies
+
+```bash
+  npm i
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+## TODO
+ - [] Integrate Jest.
+ - [] Integrate Google Analytics.
+ - [] Integrate pre-commit hook.
+ - [] Protect master branch.
+ - [] Integrate nginx server inside docker, static should be built and pushed inside docker.
+ - [] Seperate ENV variables for integration and production.
+ - [] Automatic push on integration netlify dns, manual push on production.
+ - [] Two reviewers, Me and Belel are required to push branch on master. Automatic branch deployment, manual deployment on master.
+ - [] Code coverage report in pre-commit check and CI before merging into master branch. CI should break if coverage is less then 98%.
+ - [] More points later.
+
+
+## Demo
+
+Insert gif or link to demo
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Authors
+
+- [@avirajkhare00](https://www.github.com/avirajkhare00)
+
+
+## Support
+
+For support, email fake@fake.com or join our Slack channel.
