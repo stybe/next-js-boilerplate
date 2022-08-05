@@ -11,9 +11,6 @@ jobs:
       run: yarn build
     - name: run code
       run: yarn start&
-    - name: Sleep for 50 seconds
-      run: sleep 30s
-      shell: bash
     - name: Integration tests
       uses: cypress-io/github-action@v4.2.0
       with:
