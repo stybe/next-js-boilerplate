@@ -1,7 +1,7 @@
 name: integration-test
 on:
   push:
-  pull_request:
+
 jobs:
 
   basic-ubuntu-20-v10:
@@ -13,5 +13,5 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: examples/v10/basic
+          working-directory: next-js-boilerplate
           build: npx cypress info
