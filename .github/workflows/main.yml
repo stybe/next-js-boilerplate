@@ -1,16 +1,11 @@
-name: integration-test
-on:
-  push:
-
+name: CI
+on: push
 jobs:
-
-  basic-ubuntu-20-v10:
-    runs-on: ubuntu-20.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Cypress tests
-        uses: ./
-        with:
-          build: npx cypress info
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: yarn
+    - name: Cypress.io
+      uses: cypress-io/github-action@v4.2.0
