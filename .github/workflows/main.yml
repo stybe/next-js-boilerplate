@@ -13,5 +13,4 @@ jobs:
       - name: Cypress tests
         uses: ./
         with:
-          working-directory: next-js-boilerplate
           build: npx cypress info
